@@ -20,16 +20,14 @@ print("===============================================================")
 print("                        NUMBER GUESSING                        ")
 print("===============================================================")
 
-username = input("Enter your username ~> ")
+username = str(input("Enter your username ~> "))
 
 number = random.randint(minNumber, maxNumber)
 print("Well {} I am thinking in a number between {} and {} ".format
         (username, str(number), str(maxNumber)))
 
 while guessesTaken < 6:
-    guess = input("Take a guess ~> ")
-    guess = int(guess)
-    
+    guess = int(input("Take a guess ~> "))
     guessesTaken = guessesTaken + 1
 
     if guess < number:

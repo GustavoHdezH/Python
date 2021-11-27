@@ -6,7 +6,8 @@ Running the code
     py main.py
 
 Additional information
-    Adivina el numero en el menor numero de intentos
+    Python 3.9.7
+
 """
 import random
 
